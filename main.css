@@ -1,6 +1,6 @@
 @font-face {
     font-family: OstrichSans-Black;
-    src: url('../shares/fonts/OstrichSans-Black.otf');
+    src: url('./shares/fonts/OstrichSans-Black.otf');
 }
 
 html,
