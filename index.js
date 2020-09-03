@@ -90,7 +90,7 @@ function currentFloor(currentHeight) {
 
 function clickBack() {
     setTimeout(function () {
-        document.location.href = `../index.html`
+        document.location.href = `./index.html`
     }, 250);
 }
 

@@ -101,46 +101,66 @@ svg {
 
 .rulers {
     position: absolute;
-    right: -50%;
+    right: 0%;
     top: 0;
     bottom: 0;
-    width: 160%;
+    width: 100%;
     background-color:rgba(0,0,0,.2);
 }
 
 .rulersNum {
-    color: rgb(192, 193, 194);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
+    color: #686868;
+    font-weight: bold;
     position: absolute;
-    right: -200%;
+    right: -330%;
     top: 0;
     bottom: 0;
-    width: 100%;
+    width: 300%;
     /* background-color:rgba(0,0,0,.2);  */
 }
 
 .rulersNum > div {
-    /* margin-top: 20px; */
+    position: absolute;
+}
+
+.rulersNum > div::before {
+    content: "- ";
+}
+
+#_58 {
+    top: 20px;
+}
+
+#_47 {
+    top: 93px;
+}
+
+#_37 {
+    top: 155px
+}
+
+#_27 {
+    margin-top: 220px;
+}
+
+#_22 {
+    bottom: 0;
 }
 
 
 
-
-.rulers::before {
+/* .rulers::before {
     content: "";
     position: absolute;
     left: 0; right:0; top: 0; bottom: 0;
     background:linear-gradient(to top, #686868 1px, transparent 2px);
-    background-size: 100% 10%;
-}
+    background-size: 100% 20%;
+} */
 
 .rulers::after {
     content: "";
     position: absolute;
-    right: 30%; left:0; top: 0; bottom: 0;
+    right: 0; left:0; top: 0; bottom: 0;
     background:linear-gradient(to top, #686868 1px, transparent 2px);
     background-size: 100% 2%;
 }
