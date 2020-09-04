@@ -24,7 +24,8 @@ window.onload = function () {
     svg.on('wheel', onWheelFn);
 
     slider = document.querySelector('#slider');
-    slider.addEventListener('change', onChangeSlider); 
+    // slider.addEventListener('change', onChangeSlider); 
+    slider.addEventListener('input', onChangeSlider);
     document.querySelector(".aside").style.height =  sliderHeight + "px"
 }
 
